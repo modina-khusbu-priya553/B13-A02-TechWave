@@ -266,6 +266,50 @@ hr{
     text-align: center;
 }
 
+/* Episode section  */
+
+.episode-container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+}
+.episode{
+    
+    width: 100%;
+    max-width: 380px;
+    
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+    padding-bottom: 24px;
+}
+.video-wrapper {
+    width: 100%;
+    max-width: 380px;   
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    
+    border: none;
+    border-top-right-radius:30px ;
+    border-top-left-radius: 30px;
+}
+.episode-description{
+    padding: 24px;
+    
+}
+.video-length{
+    display: flex;
+    align-items: center;
+}
+.time{
+    color: #00FF88;
+    margin-left: 6px;
+}
 
 @media screen and (max-width:576px) {
 
