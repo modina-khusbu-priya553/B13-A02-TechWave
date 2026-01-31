@@ -311,6 +311,40 @@ hr{
     margin-left: 6px;
 }
 
+
+/* style host section */
+    .host-container{
+        display: flex;
+        background-color: #230E3D;
+        border-radius: 40px;
+        gap: 24px;
+        padding: 40px;
+        justify-content: center;
+        
+    }
+
+    .host-name{
+        color: #FFFFFF;
+        font-size: 2rem;
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+
+    .logo{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .logo-circle{
+        border: 1px solid gray;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;              
+        align-items: center;       
+        justify-content: center;
+        
+    }
 @media screen and (max-width:576px) {
 
     html, body {
@@ -402,5 +436,41 @@ hr{
     hr{
         margin-top: 40px;
         margin-bottom: 40px;
+    }
+
+    /* choose section */
+
+    .choose-container{
+        padding-top: 5px;
+        padding-bottom: 40px;
+        margin: 40px 20px;
+        text-align: center;    
+    }
+    .choose-card{
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+    .card{
+        padding: 24px;
+    }
+    .card-title{
+        font-size: 1.1rem;
+    }
+    .card-1, .card-2, .card-3, .card-4, .card-5{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    /* episode section */
+
+    .episode-sec{
+        max-width: 440px;
+        width: 100%;
+    }
+    .episode-container{
+        
+        margin:40px 20px 60px 20px ;
+        flex-direction: column;
+
     }
 }
