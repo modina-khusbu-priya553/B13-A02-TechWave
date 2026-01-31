@@ -524,4 +524,54 @@ hr{
         flex-direction: column;
 
     }
+
+     /* host section */
+
+    .host-title{
+        font-size: 2rem;
+        margin-top: 60px;
+    }
+
+    .host-container{
+        margin: 24px 20px 40px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        justify-content: center;
+    }
+
+    .container{
+        margin: 0;
+        padding: 40px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        
+       
+
+    }
+    #footer-title{
+        font-size: 4rem;
+    }
+
+    .footer-container{
+        flex-wrap: wrap;
+        
+        gap: 24px;
+        
+      
+    }
+
+    #footer-title{
+        padding-top: 0;
+        padding-right: 0;
+     
+       
+    } 
+
+    .copy-right{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+   
 }
