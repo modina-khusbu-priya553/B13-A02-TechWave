@@ -207,3 +207,97 @@ hr{
     
 }
 
+
+@media screen and (max-width:576px) {
+
+    html, body {
+    overflow-x: hidden;
+    }
+
+    main > section{
+    max-width: 440px;
+    margin: 0 auto;
+    }
+    .menu, .primary-btn{
+        display: none;    
+    }
+
+    .nav-container{
+        padding: 16px 20px;
+    }
+    .logo-menu{
+        display:block;
+        padding-top: 30px;
+        padding-right: 20px;
+
+    }
+
+    /* banner section */
+    .banner {
+        margin: 40px 20px;
+        background-image: url("/assets/hero-bg.png");
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-position: right top;
+
+    }
+    .banner-img {
+        height: 220px;
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+    .box img {
+        width: 110px;
+    }
+    .mic img{
+        width: 50px;
+    }
+    .box {
+        position: absolute;
+        left: 180px;
+        top: 80px;
+        transform: translate(-50%, -50%);
+    }
+        .mic {
+        position: absolute;
+        left: 180px;
+        top: 80px;
+        transform: translate(-50%, -50%);
+    }
+    .badge {
+        position: absolute;
+        left: 240px;
+        top: 10px;
+        transform: translateX(-50%);
+    }
+    .badge-new{
+        width:20px;
+        padding: 8px 16px;
+        background-color: #00FF88;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(0, 255, 136, 1);
+    }
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+
+    /* about section */
+    .about-container{
+    margin: 40px 20px;
+    }
+   
+    .about-title{
+        font-size: 2rem;
+    }
+    .about-item{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    }
+    hr{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
