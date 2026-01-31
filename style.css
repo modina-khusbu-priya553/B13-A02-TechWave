@@ -126,3 +126,84 @@ main > section{
     text-align: center;
     padding-bottom: 100px;
 }
+
+/* style about section */
+
+
+.about-container{
+    margin: 50px 200px 120px 200px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    
+}
+#spotify-btn{
+    color: #FFFFFF;
+    border-radius: 30px;
+    
+}
+#msg-btn{
+    border: 1px solid #00FF88;
+    border-radius: 20px;
+    background-color: #00ff8800;
+    color: #00FF88;  
+    
+}
+.btn{
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-img{
+   margin-right: 5px;  
+}
+
+
+.about-title, .host-title{
+    
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.container-description{
+    font-size: 1rem;
+    color:#FFFFFF;
+    line-height: 20px;
+    opacity: 60%;    
+}
+
+hr{
+    color:gainsboro;
+    opacity: 0.1;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:80px;
+}
+.item{
+    font-size: 3rem;
+    color: #00FF88;
+    margin: 0;
+}
+
+.item-description{
+    text-align: center;
+    color:#ffffffd7;
+    font-weight: 100;
+    
+}
+
