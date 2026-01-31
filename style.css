@@ -1,0 +1,74 @@
+.fonts-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* shared style */
+
+main > section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-color{
+    background-color: #1A0B2E;
+}
+
+#gradient{
+    background: linear-gradient(180deg,
+        rgba(145, 0, 248, 1), 
+        rgba(251, 9, 180, 1),
+        rgba(247, 233, 63, 1));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+
+.baground-color{
+    background:linear-gradient(to bottom left, rgba(145, 0, 248, 1),
+    rgba(251, 9, 180, 1), rgba(247, 233, 63, 1));
+
+}
+
+/* nav-bar style */
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px 200px;
+}
+
+
+.nav-logo{
+    color: #FFFFFF;
+}
+
+.menu{
+    justify-content: center;
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    align-items: center; 
+
+}
+.menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.primary-btn{
+        color: #FFFFFF;
+        border: none;
+        border-radius: 40px;
+        padding: 12px 40px ;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 24px;
+        cursor: pointer;
+
+}
+.logo-menu{
+    display: none;
+}
