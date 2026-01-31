@@ -72,3 +72,57 @@ main > section{
 .logo-menu{
     display: none;
 }
+
+/* banner section style */
+.banner{
+    background: url(/assets/hero-bg.png);
+}
+
+.banner-img{
+    text-align: center;
+    height: 400px;
+    margin: 101px 525px;
+    position: relative;
+}
+
+
+.box{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+
+.mic{
+   
+    position: absolute;
+    left: 220px;
+    top: 155px;  
+    
+}
+
+
+.badge{
+    position: absolute;
+    left: 355px;
+    top: 60px; 
+ 
+}
+.badge-new{
+    width:75px;
+    padding: 8px 16px;
+    background-color: #00FF88;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 255, 136, 1);
+
+}
+.banner-title{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 4rem;
+    
+}
+.banner-description{
+    display: block;
+    text-align: center;
+    padding-bottom: 100px;
+}
