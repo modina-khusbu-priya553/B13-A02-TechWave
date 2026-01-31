@@ -345,6 +345,57 @@ hr{
         justify-content: center;
         
     }
+
+ /* Style footer */
+
+    .footer{
+        margin: 0 auto;
+        max-width: 1600px;
+        height: 412px;
+        width: 100%;
+        background: url(/assets/footer-bg.png);
+       
+        
+       
+    }
+
+    .container{
+        padding-left: 129px;
+        display: block;
+        margin: 200px;
+        text-align: center;
+
+    }
+    #footer-title{
+        font-size: 4rem;
+
+        padding-top: 80px;
+        padding-right: 120px;
+     
+       
+    }
+    
+    .footer-container{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .footer-logo{
+        display: flex;
+        gap: 8px;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        
+    } 
+
+    .copy-right{
+        margin-top: 34px;
+    }
+
+/* responsive */
 @media screen and (max-width:576px) {
 
     html, body {
